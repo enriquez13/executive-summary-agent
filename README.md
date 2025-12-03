@@ -52,30 +52,30 @@ graph LR
     H --> I[Generate Summary<br/>LLaMA 3.3 70B via Groq]
     I --> J[Executive Summary Output]
 ```
-📦 Quick Installation
+# 📦 Quick Installation
 1. Clone the repository
 git clone https://github.com/enriquez1/executive-summary-agent.git
 cd executive-summary-agent
 
 2. Create a virtual environment (recommended)
 python -m venv .venv
-# Windows
+## Windows
 .venv\Scripts\activate
-# Linux/Mac
+## Linux/Mac
 source .venv/bin/activate
 
 3. Install dependencies
 pip install -r requirements.txt
 
 4. Configure Groq API Key
-# Windows (PowerShell)
+## Windows (PowerShell)
 $env:GROQ_API_KEY="your_key_here"
 
-# Linux/Mac
+## Linux/Mac
 export GROQ_API_KEY="your_key_here"
 
 
-📁 Project Structure
+# 📁 Project Structure
 ```bash
 executive-summary-agent/
 │
@@ -101,16 +101,16 @@ Groq API  -  High-speed LLM (Llama 3.3 70B)   - LLaMA 3.3
 pdfplumber -   Advanced PDF extraction -   0.10+
 Python  -  Main language  -  3.9+
 
-🎯 Use Cases in Consulting
-1. Accelerated Due Diligence
+## 🎯 Use Cases in Consulting
+**1. Accelerated Due Diligence**
 Problem: Analyzing 10 annual reports for a merger takes 40+ hours.
 Solution: This agent does it in 30-50 minutes, extracting key financial KPIs.
 
-2. Competitive Benchmarking
+**2. Competitive Benchmarking**
 Problem: Manually comparing results from 5 competitors.
 Solution: Process all reports and generate an automatic comparison table.
 
-3. Weekly Executive Update
+**3. Weekly Executive Update**
 Problem: Preparing summaries of earnings calls and reports for leadership.
 Solution: Automated pipeline that processes documents and sends summaries.
 
@@ -135,5 +135,6 @@ You are a market analyst. Extract:
 **Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
 **Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
+
 
 
