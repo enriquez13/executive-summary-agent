@@ -4,7 +4,6 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.2+-orange.svg)](https://www.langchain.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📊 What Problem Does It Solve?
 
@@ -34,12 +33,12 @@ Executives and consultants waste **hours reading 100+ page annual reports** to e
 
 ## ✨ Key Features
 
-- ## Smart Extraction:    Automatically identifies financial tables, KPIs, and key data
-- ## Advanced Cleaning:    Removes repetitive headers, page numbers, and PDF noise
-- ## Semantic Search:    Finds relevant content using embeddings + keywords
-- ## Value Filterin:    Prioritizes chunks with concrete numerical and financial data
-- ## Structured Generation:    Produces summaries with professional executive formatting
-- ## Fast Processing:    3-5 minutes for reports of 100+ pages
+-  **Smart Extraction:**    Automatically identifies financial tables, KPIs, and key data
+-  **Advanced Cleaning:**    Removes repetitive headers, page numbers, and PDF noise
+-  **Semantic Search:**    Finds relevant content using embeddings + keywords
+-  **Value Filterin:**    Prioritizes chunks with concrete numerical and financial data
+-  **Structured Generation:**    Produces summaries with professional executive formatting
+-  **Fast Processing:**    3-5 minutes for reports of 100+ pages
 
 ```text
 graph LR
@@ -77,6 +76,7 @@ export GROQ_API_KEY="your_key_here"
 
 
 📁 Project Structure
+```bash
 executive-summary-agent/
 │
 ├── app.ipynb                 # Main flow of the agent
@@ -91,6 +91,7 @@ executive-summary-agent/
 │   └── architecture.md
 │
 └── test.ipynb
+```
 
 ## 🛠️ Technologies Used
 LangChain    LLM orchestration framework    0.2+
@@ -134,4 +135,5 @@ You are a market analyst. Extract:
 **Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
 **Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
+
 
