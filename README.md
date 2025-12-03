@@ -114,15 +114,15 @@ Solution: Process all reports and generate an automatic comparison table.
 Problem: Preparing summaries of earnings calls and reports for leadership.
 Solution: Automated pipeline that processes documents and sends summaries.
 
-🔧 Customization
+##🔧 Customization
 Adapt to Other Domains
-# Cambiar la consulta para análisis ESG
+Cambiar la consulta para análisis ESG
 esg_query = """
 ESG metrics: carbon emissions, diversity ratios, 
 water usage, board diversity, sustainability targets
 """
 
-# Change the prompt for market analysis
+## Change the prompt for market analysis
 market_prompt = “”"
 You are a market analyst. Extract:
 1. Market share by region
@@ -135,6 +135,7 @@ You are a market analyst. Extract:
 **Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
 **Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
+
 
 
 
