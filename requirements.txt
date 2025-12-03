@@ -1,0 +1,9 @@
+# requirements.txt
+pdfplumber
+langchain
+langchain-groq
+langchain-community
+faiss-cpu
+sentence-transformers
+numpy
+pydantic # Requisito de Groq
