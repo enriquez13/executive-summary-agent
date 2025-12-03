@@ -130,8 +130,8 @@ You are a market analyst. Extract:
 
 """
 ## 📞 Contact
-Alejandro Enríquez
 
-LinkedIn: https://www.linkedin.com/in/alejandro-enríquez-3611931b3/
+**Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
-Project: https://github.com/enriquez13/executive-summary-agent
+**Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
+
