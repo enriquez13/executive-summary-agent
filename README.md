@@ -115,7 +115,7 @@ Solution: Process all reports and generate an automatic comparison table.
 Problem: Preparing summaries of earnings calls and reports for leadership.
 Solution: Automated pipeline that processes documents and sends summaries.
 
-##🔧 Customization
+## 🔧 Customization
 Adapt to Other Domains
 Cambiar la consulta para análisis ESG
 esg_query = """
@@ -136,6 +136,7 @@ You are a market analyst. Extract:
 **Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
 **Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
+
 
 
 
