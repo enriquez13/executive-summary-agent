@@ -40,8 +40,7 @@ Executives and consultants waste **hours reading 100+ page annual reports** to e
 -  **Structured Generation:**    Produces summaries with professional executive formatting
 -  **Fast Processing:**    3-5 minutes for reports of 100+ pages
 
-```
-graph LR
+```graph LR
     A[PDF Input] --> B[Extract Text<br/>pdfplumber]
     B --> C[Clean Text<br/>regex patterns]
     C --> D[Chunk Text<br/>RecursiveTextSplitter]
@@ -135,6 +134,7 @@ You are a market analyst. Extract:
 **Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
 **Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
+
 
 
 
