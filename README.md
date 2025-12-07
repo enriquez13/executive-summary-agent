@@ -4,7 +4,6 @@
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![LangChain](https://img.shields.io/badge/LangChain-0.2+-orange.svg)](https://www.langchain.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📊 What Problem Does It Solve?
 
@@ -34,14 +33,14 @@ Executives and consultants waste **hours reading 100+ page annual reports** to e
 
 ## ✨ Key Features
 
-- ## Smart Extraction:    Automatically identifies financial tables, KPIs, and key data
-- ## Advanced Cleaning:    Removes repetitive headers, page numbers, and PDF noise
-- ## Semantic Search:    Finds relevant content using embeddings + keywords
-- ## Value Filterin:    Prioritizes chunks with concrete numerical and financial data
-- ## Structured Generation:    Produces summaries with professional executive formatting
-- ## Fast Processing:    3-5 minutes for reports of 100+ pages
+-  **Smart Extraction:**    Automatically identifies financial tables, KPIs, and key data
+-  **Advanced Cleaning:**    Removes repetitive headers, page numbers, and PDF noise
+-  **Semantic Search:**    Finds relevant content using embeddings + keywords
+-  **Value Filterin:**    Prioritizes chunks with concrete numerical and financial data
+-  **Structured Generation:**    Produces summaries with professional executive formatting
+-  **Fast Processing:**    3-5 minutes for reports of 100+ pages
 
-```text
+```mermaid
 graph LR
     A[PDF Input] --> B[Extract Text<br/>pdfplumber]
     B --> C[Clean Text<br/>regex patterns]
@@ -52,31 +51,33 @@ graph LR
     G --> H[Filter Executive Content<br/>Scoring System]
     H --> I[Generate Summary<br/>LLaMA 3.3 70B via Groq]
     I --> J[Executive Summary Output]
+
 ```
-📦 Quick Installation
+# 📦 Quick Installation
 1. Clone the repository
 git clone https://github.com/enriquez1/executive-summary-agent.git
 cd executive-summary-agent
 
 2. Create a virtual environment (recommended)
 python -m venv .venv
-# Windows
+## Windows
 .venv\Scripts\activate
-# Linux/Mac
+## Linux/Mac
 source .venv/bin/activate
 
 3. Install dependencies
 pip install -r requirements.txt
 
 4. Configure Groq API Key
-# Windows (PowerShell)
+## Windows (PowerShell)
 $env:GROQ_API_KEY="your_key_here"
 
-# Linux/Mac
+## Linux/Mac
 export GROQ_API_KEY="your_key_here"
 
 
-📁 Project Structure
+# 📁 Project Structure
+```bash
 executive-summary-agent/
 │
 ├── app.ipynb                 # Main flow of the agent
@@ -91,6 +92,7 @@ executive-summary-agent/
 │   └── architecture.md
 │
 └── test.ipynb
+```
 
 ## 🛠️ Technologies Used
 LangChain    LLM orchestration framework    0.2+
@@ -100,28 +102,28 @@ Groq API  -  High-speed LLM (Llama 3.3 70B)   - LLaMA 3.3
 pdfplumber -   Advanced PDF extraction -   0.10+
 Python  -  Main language  -  3.9+
 
-🎯 Use Cases in Consulting
-1. Accelerated Due Diligence
+## 🎯 Use Cases in Consulting
+**1. Accelerated Due Diligence**
 Problem: Analyzing 10 annual reports for a merger takes 40+ hours.
 Solution: This agent does it in 30-50 minutes, extracting key financial KPIs.
 
-2. Competitive Benchmarking
+**2. Competitive Benchmarking**
 Problem: Manually comparing results from 5 competitors.
 Solution: Process all reports and generate an automatic comparison table.
 
-3. Weekly Executive Update
+**3. Weekly Executive Update**
 Problem: Preparing summaries of earnings calls and reports for leadership.
 Solution: Automated pipeline that processes documents and sends summaries.
 
-🔧 Customization
+## 🔧 Customization
 Adapt to Other Domains
-# Cambiar la consulta para análisis ESG
+Cambiar la consulta para análisis ESG
 esg_query = """
 ESG metrics: carbon emissions, diversity ratios, 
 water usage, board diversity, sustainability targets
 """
 
-# Change the prompt for market analysis
+## Change the prompt for market analysis
 market_prompt = “”"
 You are a market analyst. Extract:
 1. Market share by region
@@ -130,8 +132,7 @@ You are a market analyst. Extract:
 
 """
 ## 📞 Contact
-Alejandro Enríquez
 
-LinkedIn: https://www.linkedin.com/in/alejandro-enríquez-3611931b3/
+**Alejandro** - [@enriquez13](https://github.com/enriquez13)
 
-Project: https://github.com/enriquez13/executive-summary-agent
+**Repository:** [github.com/enriquez13/executive-summary-agent](https://github.com/enriquez13/executive-summary-agent)
